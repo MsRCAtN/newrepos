@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "inheritEnvironments": [
+                "msvc_x64"
+            ],
+            "name": "x64-Release",
+            "includePath": [
+                "C:/MinGW/include/*",
+                "C:/MinGW/lib/gcc/mingw32/6.3.0/include/*"
+            ],
+            "defines": [
+                "WIN32",
+                "NDEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "intelliSenseMode": "msvc-x64",
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            }
+        }
+    ],
+    "version": 4
+}
