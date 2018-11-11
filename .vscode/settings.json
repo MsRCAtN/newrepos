@@ -1,4 +1,6 @@
 {
     "C_Cpp.errorSquiggles": "Disabled",
+    "php.validate.executablePath": "C:\\Users\\sa46l\\Downloads\\php-7.2.11-nts-Win32-VC15-x64\\php.exe",
+    "C_Cpp.dimInactiveRegions": false,
     //"cmake.cmakePath": "/path/to/cmake"
 }
