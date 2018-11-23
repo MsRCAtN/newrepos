@@ -2,9 +2,9 @@
 #include <stdlib.h>
 #include <time.h>
 
-#define MAX 33 //最大值150
-#define MIN 1   //最小值1
-#define N 10    //产生10个不同随机数，注意随机数的个数不能超过最大最小数之间的范围，不然会导致死循环
+#define MAX 32767 //最大值
+#define MIN 1   //最小值
+#define N 10000    //产生10个不同随机数，注意随机数的个数不能超过最大最小数之间的范围，不然会导致死循环
 
 int main()
 {

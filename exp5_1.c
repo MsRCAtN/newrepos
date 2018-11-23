@@ -7,7 +7,7 @@ int search(int objectArray[], int object) //查找指定元素是否在该数组
     {
         if (objectArray[n] == object)
         {
-            printf("%d", n);
+            break;
         }
         else
         {
@@ -91,12 +91,16 @@ int main()
         printf("Please enter a number which you want to find\n");
         scanf("%d", &b);
         search(array, b);
+        break;
     case 2:
         printf("%d", average(array));
+        break;
     case 3:
         printf("%d", maxValue(array));
+        break;
     case 4:
         printf("%d", minValue(array));
+    break;
     case 5:
         sort(array);
         for (int t = 0; t < 10; t++)
@@ -105,6 +109,7 @@ int main()
         }
         break;
     }
+    system("pause");
     return 0;
 }
 /*#include <stdio.h>
