@@ -6,7 +6,7 @@ int main()
     delete (a, 1);
     add(a, 6);
 }
-int delete (array[], int N)
+int delete (int array[], int N)
 {
     for (int i = 0; i < (N - 1); i++)
     {

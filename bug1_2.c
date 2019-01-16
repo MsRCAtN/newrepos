@@ -1,8 +1,8 @@
 #include "Windows.h"
 #include "WinBase.h"
-int main()
+int main(int argc, char const *argv[])
 {
-    ShellExecute(NULL, "open", "cmd", NULL, NULL, SW_SHOWNORMAL);
+    ShellExecute(NULL, "open", "cmd", argv, NULL, SW_SHOWNORMAL);
     return 0;
 }
 /*ShellExecute(
